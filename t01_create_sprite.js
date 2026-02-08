@@ -9,14 +9,20 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
-
+cnv = new Canvas(windowWidth ,  windowHeight);
+let box;
+box = new Sprite(0, 0, 100, 100, '100');
+let circle;
+circle = new Sprite(100, 100, 50);
+circle.collider = 'circle';
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-	
+	box.color ='#2E8B57'
+	background('#000000');
 }
 
 /*******************************************************/
