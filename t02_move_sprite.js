@@ -15,14 +15,18 @@ box = new Sprite(0, 0, 100, 100, '100');
 let circle;
 circle = new Sprite(100, 100, 50);
 circle.collider = 'circle';
-spin = new Sprite
+spin = new Sprite(300, -200, 250, 300, '300')
+spin.rotationSpeed = -10;
+spin.vel.y = 1;
+
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-	box.color ='#2E8B57'
+	spin.color =' #87CEEB';
+	box.color ='#2E8B57';
 	background('#000000');
 }
 
