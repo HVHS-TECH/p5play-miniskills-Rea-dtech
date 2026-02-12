@@ -47,8 +47,8 @@ spiningBox.vel.y = 1;
 */
 ball_1 = new Sprite(width/2, height/2, 50, 'd');
 ball_1.vel.x = 5;
-ball_1.friction = 0;
-ball_1.bounciness = 1;
+ball_1.friction = 10;
+ball_1.bounciness = 1.02;
 ball_1.drag = 0;
 wallLH = new Sprite(0, height/2, 50, height, 'k');
 wallRH = new Sprite(width, height/2, 50, height, 'k');
