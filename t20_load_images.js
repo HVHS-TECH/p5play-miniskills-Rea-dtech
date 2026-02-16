@@ -6,7 +6,7 @@
 function preload() {
 	imgBG = 
 	loadImage('../assets/images/spaceBG.jpg');
-	imgFace = loadImage('../assets/images/face.png');
+	imgFace = loadImage('../assets/images/image.png');
 }
 
 
