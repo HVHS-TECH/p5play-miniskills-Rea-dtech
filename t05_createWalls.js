@@ -54,7 +54,10 @@ wallLH = new Sprite(0, height/2, 50, height, 'k');
 wallRH = new Sprite(width, height/2, 50, height, 'k');
 wallTop = new Sprite(width/2, 0, width, 50, 'k');
 wallBot = new Sprite(width/2, height, width, 50, 'k');
-
+wallLH.color = ('#bbff00');
+wallRH.color = ('#34a583');
+wallTop.color = ('#2a28b4');
+wallBot.color = ('#bb2b2b');
 }
 	
 /*******************************************************/
@@ -63,7 +66,7 @@ wallBot = new Sprite(width/2, height, width, 50, 'k');
 function draw() {
 	/*spiningBox.color =' #87CEEB';
 	box.color ='#2E8B57';
-	background('#000000');
+	
 	box1.color = ('#00FF00')
 	box2.color = ('#00FF00')
 	box3.color = ('#00FF00')
@@ -71,11 +74,8 @@ function draw() {
 	box5.color = ('#880808')
 	platform1.color = ('#bbff00')
 	*/
+background('#000000');
 
-wallLH.color = ('#bbff00');
-wallRH.color = ('#34a583');
-wallTop.color = ('#2a28b4');
-wallBot.color = ('#bb2b2b');
 }
 
 /*******************************************************/
