@@ -5,7 +5,7 @@
 /*******************************************************/
 function preload() {
 	imgBG = 
-	loadImage('../assets/images/spaceBG.jpg');
+	loadImage('../assets/images/space.BG.jpg');
 	imgFace = loadImage('../assets/images/image.png');
 }
 
