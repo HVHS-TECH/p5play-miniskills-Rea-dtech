@@ -39,10 +39,11 @@ function setup() {
 // draw()
 /*******************************************************/
 function draw() {
-	text("hello world", 50, 50);
-		var name = "rea";
-		text("hello " + name, 50, 100);
-	background('#000000');
+	background('#166999');
+	text("hello world", 200, 50);
+	var name = "rea";
+	text("hello " + name, 200, 100);
+	
 
 
 	if (kb.pressing('left')) {
@@ -55,10 +56,10 @@ function draw() {
 	}
 	else if (kb.pressing('up')) {
 		spin.moveTo(spin.x, spin.y - 10, 5);
-		}
-	
-
 	}
+
+
+}
 
 /*******************************************************/
 //  END OF APP
